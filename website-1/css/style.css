@@ -1,0 +1,146 @@
+body
+{
+    margin: 0 auto;
+    font-family: arial;
+    font-size: 1rem;
+}
+.header-bg
+{
+    background-image: url("../images/bg-header.jpg");
+    height: 10rem;
+    background-repeat: repeat-x;
+    width: 100%;
+}
+.customcontaier
+{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+    color: #9b660b;
+}
+header ul
+{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+header ul li a
+{
+    color: #9b660b;
+    text-decoration: none;
+}
+header ul li a:hover
+{
+    color: #e29b1f
+}
+a.active
+{
+    color: #e29b1f
+}
+
+.middlesection
+{
+    margin: 0 auto;
+    background-color: #fff7db;
+    padding-bottom: 4rem;
+}
+.customcontaier1
+{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.middlesection-content
+{
+    width: 62%;
+    color: #aa9387;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 24px 0 60px;
+}
+.lastsection
+{
+    margin: 0 auto;
+    background-color: #FFF0C2;
+}
+.customcontaier2
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.lastsection ul
+{
+    margin: 0 auto;
+    list-style-type: none;
+}
+.lastsection ul li
+{
+    padding: 1.5rem 0;
+    display: inline-block;
+    width: 18.75rem;
+}
+.lastsection ul li:nth-child(2)
+{
+    padding: 0 1rem;
+}
+.lastsection ul li p
+{
+    color: #aa9387;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+.footer-brdr
+{
+    background-image: url("../images/footer-border.jpg");
+    height: 10px;
+    background-repeat: repeat-x;
+    width: 100%;
+}
+.footer-bg
+{
+    background-image: url("../images/bg-body.jpg");
+    height: 9.375rem;
+    background-repeat: repeat-x;
+    width: 100%;
+    position: relative;
+}
+.pos-abs
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer
+{
+    margin: 0 auto;
+}
+footer ul
+{
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center;
+}
+footer ul li
+{
+    padding: 1.5rem 1rem;
+    display: inline-block;
+}
+footer p
+{
+    color: #956836;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+}
