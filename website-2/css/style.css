@@ -1,0 +1,121 @@
+body
+{
+    background-color: #077054;
+    margin: 0 auto;
+}
+.customcontainer
+{
+    width: 71%;
+    margin: 0 auto;
+}
+header {text-align: center;}
+header h1
+{
+    font-size: 3.125rem;
+    font-weight: normal;
+    line-height: 3.125rem;
+    margin: 0;
+    padding-top: 1.875rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+header h1 a
+{
+    color: #99fa99;
+    text-decoration: none;
+}
+header h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #b6d8cf;
+    font-size: 1.625rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    padding-bottom: 1.875rem;
+    font-family: 'Montserrat', sans-serif;
+}
+header ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+header ul li
+{
+    display: inline-block;
+    color: #b6d8cf;
+    font-size: 1.125rem;
+    padding: 0 2.875rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+header ul li a {color: #b6d8cf;}
+header ul li a.active {color: #99fa99;}
+header ul li a:hover {color: #d3a3ff;}
+header ul li a {text-decoration: none;}
+.maincontent
+{
+    background-color: #ffffff;
+    padding: 7rem 0;
+    margin-bottom: 2rem;
+}
+.flt-lft
+{
+    float: left;
+    width: 63%;
+    text-align: center;
+}
+.flt-lft-text
+{
+    color: #21a51e;
+    font-size: 6.25rem;
+    line-height: 6.25rem;
+    padding: 0 0 3.438rem;
+    margin: 3rem 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+hr
+{
+    border: 0.6875rem solid #d3a3ff;
+    border-bottom: none;
+    width: 20%;
+}
+.pad-bot
+{
+    padding-bottom: 7rem;
+}
+.side-left
+{
+    width: 75%;
+    float: left;
+}
+.side-left h4
+{
+    color: #99fa99;
+    font-size: 1.625rem;
+    line-height: 1.875rem;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.side-left p
+{
+    color: #b6d8cf;
+    font-size: 0.75rem;
+    line-height: 1.375rem;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.side-right
+{
+    width: 25%;
+    float: right;
+}
+.side-right i
+{
+    color: #99fa99;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+}
